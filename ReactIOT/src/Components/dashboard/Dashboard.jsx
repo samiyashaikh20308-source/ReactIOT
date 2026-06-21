@@ -44,7 +44,7 @@ const Dashboard = () => {
             <h1>Gas</h1>
             <p>{sensorData.Gas}</p>
         </div>*/}
-    <h1>Sensor Data Fetching</h1>
+    <h1>Sensors Data Fetching</h1>
 
   <div className="cards-container">
     <div className="data">
