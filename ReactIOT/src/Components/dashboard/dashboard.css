@@ -1,0 +1,36 @@
+.cards-container {
+    display: flex;
+    flex-direction: row;   /* Horizontal */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.data {
+    width: 350px;
+    padding: 20px;
+    background: rgb(197, 154, 214);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px black
+    transition: 0.3s;
+}
+
+.data:hover {
+    transform: translateY(-5px);
+}
+
+.data h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.data p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #060109;
+}
+h1{
+    text-align: center;
+}
